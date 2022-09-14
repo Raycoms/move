@@ -66,6 +66,7 @@ pub fn run_move_prover<W: WriteColor>(
         }],
         options.model_builder.clone(),
     )?;
+    println!(&env);
     run_move_prover_with_model(&env, error_writer, options, Some(now))
 }
 
