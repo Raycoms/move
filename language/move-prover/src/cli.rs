@@ -97,7 +97,7 @@ impl Default for Options {
             run_docgen: false,
             run_abigen: false,
             run_errmapgen: false,
-            run_read_write_set: false,
+            run_read_write_set: true,
             run_escape: false,
             verbosity_level: LevelFilter::Info,
             move_sources: vec![],
